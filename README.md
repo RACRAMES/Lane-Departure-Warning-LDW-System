@@ -15,3 +15,21 @@
 * [examples](examples) folder contains the sample images and videos
 * [environment-gpu.yml](environment-gpu.yml) environment file with GPU 
 * [README.md](README.md) summarizing the results
+
+#### 2. Dependencies & my environment
+
+* OpenCV3, Python3.5 
+* you can use provided [environment file with GPU](environment-gpu.yml) to install the dependencies.
+
+#### 3. How to run the code
+If you want to run the demo, you can simply run:
+```sh
+python main.py
+```
+If you want to use the code to calibration your own camera and test the video, save the image into [camera_cal](camera_cal) and calibrate them with: 
+```sh
+python calibration.py
+```
+
+
+
